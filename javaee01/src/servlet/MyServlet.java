@@ -18,7 +18,11 @@ public class MyServlet extends HttpServlet {
 		
 		req.getRequestDispatcher("index.html").forward(req, resp);
 		
+<<<<<<< HEAD
 		System.out.println("haha");
+=======
+		System.out.println("hello");
+>>>>>>> branch 'master' of https://github.com/guoshaojie/bb.git
 		
 		
 	}
