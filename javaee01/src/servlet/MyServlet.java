@@ -18,7 +18,7 @@ public class MyServlet extends HttpServlet {
 		
 		req.getRequestDispatcher("index.html").forward(req, resp);
 		
-		System.out.println("hahah");
+		System.out.println("haha");
 		
 		
 	}
